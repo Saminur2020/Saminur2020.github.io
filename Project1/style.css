@@ -1,0 +1,93 @@
+.logo {
+  
+  height: 100px;
+  
+}
+#pic1 {
+  float: left;
+}
+#pic2{
+  float: right;
+}
+
+section {
+  height: 400px;
+  background-color: lightpink;
+}
+section > div {
+  height: 44%;
+  backxground-color: #77bb41;
+}
+
+.descriptionbox{
+  
+  height: 90%;
+  width:50%;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.descriptionbox >img {
+width:35%;
+  margin-top: 30px;
+  border: 1px solid purple;
+}
+.descriptionbox >p {
+  margin-bottom: 30px;
+}
+
+.northernlight {
+  width: 44%;
+  float: right;
+  height: 90%;
+  margin-right: 40px;
+/*   margin-top: 40px; */
+}
+  .northernlight >img {
+    width:35%;
+    margin-bottom: 30px;
+    border: 1px solid purple;
+  
+}
+.phone {
+  float: left;
+}
+.email {
+  float: left;
+}
+.instagram {
+  float: left;
+}
+
+.firstLevel {
+  height: 300px;
+  
+}
+.secondLevel {
+  width: 33%;
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+}
+.navSection {
+  display: flex;
+  background-color: lightblue;
+  justify-content: center;
+  
+ 
+}
+.navSection >a {
+   align-items: center;
+}
+.iceClimbing {
+  height: 300px;
+  
+  display: flex;
+}
+.ice {
+  float: left;
+  width: 33.3%;
+}
+.ice >img {
+  width: 100%;
+  height: 100%;
+}
