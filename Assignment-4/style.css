@@ -1,0 +1,78 @@
+body{background-color: white;}
+.mainbox{border:2px solid #ff4013;
+    border-radius: 10px;
+    width:30%;
+  text-align: center;
+  height:300px;
+  padding:4%;
+  float: left;
+  margin-right: 4%;
+}
+
+.mainbox img{
+    /* display: block; */
+    width:50%;
+}
+
+.openmdl{ 
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #ffb43f;
+    padding: 2%;
+    border-radius: 10px;
+}
+.mdl{
+    background-color: rgba(121, 108, 109, 0.5);
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    pointer-events: none;
+    
+}
+.mdl:target{
+    opacity: 1;
+    pointer-events: all;
+}
+.mdl>div{
+    background-color: orange;
+    width:50%;
+    height:400px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+
+.mdl>div>a{
+    background-color: rgb(211, 255, 207);
+    font-size: 12px; 
+    
+}
+
+.mdl>div>img{
+    width:30%;
+}
+.modal-window-heading {
+  
+  background-color: lightpink;
+  text-align: left;
+}
+
+/* .mdl > div {
+  background-color: #ff9300;
+} */
+#sesame {
+  background-color: rgba(66, 135, 245, 0.5);
+  
+}
+#kiwi {
+  background-color: rgba(3, 252, 140,0.5);
+}
+#kiwi > div {
+  background-color: lightblue;
+}
